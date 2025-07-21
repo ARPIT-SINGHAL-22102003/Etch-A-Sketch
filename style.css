@@ -1,0 +1,67 @@
+body
+{
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 16px;
+    background-color: #000000;
+}
+
+.header
+{
+    font-family: 'Tiny5', Courier, monospace;
+    font-size: 72px;
+    color: #BC6FF1;
+    text-wrap: wrap;
+    
+}
+
+.container-buttons
+{
+    display: flex;
+    gap: 16px;
+}
+
+button
+{
+    flex: 0 1 auto;
+    font-size: 24px;
+    font-family: 'Tiny5', Courier, monospace;
+    color: white;
+    background-color: #892CDC;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+
+.containerDiv {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 40vw;
+    border: 1px solid white;
+    padding: 1px;
+}
+
+.newDiv
+{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.gridDiv {
+    flex: 1;
+    background-color: white;
+    margin: 1px;
+}
+
+.gridDivHover
+{
+    background-color: darkred;
+}
